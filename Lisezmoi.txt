@@ -1,0 +1,16 @@
+#Projet de Compilation: 
+
+Ce projet consiste en la creation d'un mini compilateur C vers un langage de graphes
+verifiant l'analyse lexicale, syntaxique et sémentique d'un code miniC. 
+le compilateur génèrera un dotfile qui pourra ensuite etre interprété par la commande dot pour fournir une version pdf. 
+Un code mal formé provoquera une erreur (différente selon l'origine de l'erreur),
+indiquant la ligne où se situe cette dernière.
+Pour l'executer : 
+Utiliser le makefile avec la commande "make" qui automatisera l'execution,
+pour modifier le fichier executer dans le make il faut utiliser la commande: 
+make TEST=fichier   // Atention il ne faut pas mettre l'extension .c elle sera rajouté par le makefile de plus le fichier doit se trouver dans le répertoire Tests
+
+Etudiants sur le projet :
+
+- SAADAOUI BRAHIM   
+
